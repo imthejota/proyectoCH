@@ -1,0 +1,49 @@
+header h1 {
+  display: none; }
+
+header img {
+  margin-left: 15vw;
+  width: 70px;
+  height: 70px; }
+  header img:hover {
+    transform: rotate(90deg); }
+
+header li {
+  margin-left: 5vw;
+  display: inline-block;
+  padding-right: 35px;
+  color: black;
+  list-style-type: none;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6rem; }
+  header li a {
+    text-decoration: none;
+    color: black; }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  footer li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px; }
+  footer img {
+    width: 32px;
+    height: 32px; }
+
+main {
+  margin-top: 20vh;
+  font-family: "Cormorant Garamond", serif; }
+  main p {
+    font-size: 1.5rem; }
+
+section {
+  margin-top: 5vh; }
+  section .music {
+    font-family: "Cormorant Garamond", serif; }
+  section iframe {
+    width: 90vw;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10vh; }
