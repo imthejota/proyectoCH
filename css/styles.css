@@ -1,3 +1,12 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+html {
+  font-size: 62.5%;
+  background-color: white;
+  color: black; }
+
 header h1 {
   display: none; }
 
@@ -28,9 +37,10 @@ footer {
     list-style-type: none;
     display: inline-block;
     padding-right: 20px; }
-  footer img {
-    width: 32px;
-    height: 32px; }
+
+.redes {
+  height: 32px;
+  width: 32px; }
 
 main {
   margin-top: 20vh;
@@ -47,3 +57,80 @@ section {
     margin: 0 auto;
     display: block;
     margin-bottom: 10vh; }
+
+.mainNews {
+  margin-top: 20vh;
+  font-family: "Cormorant Garamond", serif;
+  text-align: justify;
+  margin-bottom: 10vh; }
+  .mainNews li {
+    list-style-type: none; }
+    .mainNews li p {
+      font-size: 1.5rem; }
+      .mainNews li p a {
+        color: crimson; }
+
+.section__explore {
+  display: inline-block;
+  margin-top: 15vh;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 170;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10vh; }
+  .section__explore:hover {
+    color: #c2bdbd; }
+
+.main, .mainFrase2 {
+  margin-top: 25vh;
+  font-size: 2rem; }
+
+.main, .mainFrase2 {
+  display: flex;
+  font-family: 'Cormorant Garamond', serif;
+  justify-content: space-around; }
+
+.mainFrase2 {
+  margin-top: 10vh; }
+
+.prueba {
+  margin: 10px; }
+
+.contact {
+  margin-top: 20vh; }
+  .contact h2 {
+    display: none; }
+
+section {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem; }
+
+.datos {
+  margin-top: 20vh; }
+  .datos h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2rem; }
+  .datos p {
+    font-size: 1.6rem; }
+
+.about {
+  margin-top: 20vh;
+  font-family: "Cormorant Garamond", serif;
+  text-align: justify; }
+  .about section {
+    font-size: 1.5rem; }
+
+.gallery {
+  padding: 80px 0; }
+  .gallery img {
+    max-width: 100%; }
+
+@media (max-width: 768px) {
+  .main, .mainFrase2 {
+    margin-top: 20vh; }
+  .section__explore {
+    margin-top: 10vh; }
+  .redes {
+    width: 20px;
+    height: 20px; } }
