@@ -1,0 +1,22 @@
+.contact {
+    margin-top: 20vh;
+    h2 {
+        display: none;
+    }
+}
+
+section {
+    font-family: $font;
+    font-size: 2rem;
+}
+
+.datos {
+    margin-top: 20vh;
+    h3 {
+        font-family: $font;
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+}

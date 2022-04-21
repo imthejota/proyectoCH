@@ -1,0 +1,15 @@
+.mainNews {
+    margin-top: 20vh;
+    font-family: $font;
+    text-align: justify;
+    margin-bottom: 10vh;
+    li {
+        list-style-type: none;
+        p {
+            font-size: 1.5rem;
+            a {
+                color: crimson;
+            }
+        }
+    }
+}

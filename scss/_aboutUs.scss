@@ -1,0 +1,15 @@
+.about {
+    margin-top: 20vh;
+    font-family: $font;
+    text-align: justify;
+    section {
+        font-size: 1.5rem;
+    }
+}
+
+.gallery {
+    padding: 80px 0;
+    img {
+        max-width: 100%;
+    }
+}

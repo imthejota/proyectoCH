@@ -1,0 +1,33 @@
+.section__explore {
+    display: inline-block;
+    margin-top: 15vh;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 170;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10vh;
+    &:hover {
+        color: rgb(194, 189, 189);
+    }
+}
+
+.main {
+    margin-top: map-get($estilos, separacion);
+    font-size: map-get($estilos, fsize);
+}
+
+.main {
+    display: flex;
+    font-family: 'Cormorant Garamond', serif;
+    justify-content: space-around;
+}
+
+.mainFrase2 {
+    @extend .main;
+    margin-top: 10vh;
+}
+
+.prueba {
+    margin: 10px;
+}
