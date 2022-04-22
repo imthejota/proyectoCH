@@ -42,17 +42,17 @@ footer {
   height: 32px;
   width: 32px; }
 
-main {
+.main__wwd {
   margin-top: 20vh;
   font-family: "Cormorant Garamond", serif; }
-  main p {
+  .main__wwd p {
     font-size: 1.5rem; }
 
-section {
+.wwdSection {
   margin-top: 5vh; }
-  section .music {
+  .wwdSection .music {
     font-family: "Cormorant Garamond", serif; }
-  section iframe {
+  .wwdSection iframe {
     width: 90vw;
     margin: 0 auto;
     display: block;
