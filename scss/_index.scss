@@ -1,16 +1,48 @@
 .section__explore {
     display: inline-block;
     margin-top: 15vh;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: $font;
     font-weight: 170;
     font-size: 1.8rem;
     text-decoration: none;
-    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(5, 4, 4);
+    outline: 2px black;
     margin-bottom: 10vh;
-    &:hover {
-        color: rgb(194, 189, 189);
-    }
+    padding: 20px 50px;
+    overflow: hidden;
+    position: relative;
+    transition: color 1s;
+    margin-bottom: 15vh;
+    /* &:hover {
+        color: white;
+    } */
 }
+
+
+/* .section__explore::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background-color: rgb(29, 28, 28);
+    transform: skewX(35deg);
+    transition: width 1s;
+}
+
+.section__explore:hover::before {
+    width: 150%;
+} */
+
+
+/* .section__explore {
+    a:hover {
+        color: white !important;
+    }
+} */
 
 .main {
     margin-top: map-get($estilos, separacion);
@@ -26,8 +58,4 @@
 .mainFrase2 {
     @extend .main;
     margin-top: 10vh;
-}
-
-.prueba {
-    margin: 10px;
 }
